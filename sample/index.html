@@ -1,0 +1,29 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="sum.js"></script>
+	<!-- <script type="text/javascript" src="fact.js"></script> -->
+	<script type="text/javascript" src="mutiply.js"></script>
+	
+	
+</head>
+<body ng-app="appp">
+ <div ng-controller="emp">
+ 	<div>
+ 		value of a{{a}}
+ 		<input type="text" name="" ng-model="a"/>
+ 		value of b is{{b}}
+ 		<input type="number" name="" ng-model="b"/>
+ 	</div>
+ 	<button ng-click="dosum()">calculate
+ 		</button>sum is{{sum}}
+ 		</div>
+ 		<div ng-controller="empto">
+ 	<button ng-click="domul()"> muti</button>
+ 	mutiplication is {{mul}}
+ 	</div>
+ 
+	
+</body>
+</html>
